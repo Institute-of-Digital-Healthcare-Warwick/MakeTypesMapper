@@ -16,7 +16,7 @@
     "test": "npm-run-all --serial prepublish generate:test build:test mocha"
   },
   "bin": {
-    "make_types": "./index.js"
+    "make_types": "index.js"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
   "homepage": "https://github.com/jvilk/MakeTypes#readme",
   "devDependencies": {
     "@types/mocha": "^5.2.4",
-    "@types/node": "0.0.2",
+    "@types/node": "^0.0.2",
     "@types/yargs": "^6.3.3",
     "coveralls": "^3.0.2",
     "istanbul": "^1.0.0-alpha",
@@ -46,5 +46,9 @@
   },
   "dependencies": {
     "yargs": "^6.5.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }

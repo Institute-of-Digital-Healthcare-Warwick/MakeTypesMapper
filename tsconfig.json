@@ -10,13 +10,15 @@
         "inlineSourceMap": true,
         "strictNullChecks": true,
         "lib": [
-            "es6", "es2015.collection"
+            "es6", 
+            "es2015.collection"
         ],
-        "declaration": true
+        "declaration": true,
+        "outDir": "./build"
     },
     "include": [
         "index.ts",
         "lib/**/*.ts",
         "test/common/*.ts"
-    ]
+    ],
 }
